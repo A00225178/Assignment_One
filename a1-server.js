@@ -29,9 +29,9 @@ function handleRequest(request, response){
     sum = augend * addend;
     // Send user the server response 
     response.end('Assignment One. Expected Sum of 6 + 3 is 9, Actual Sum returned by program is : ' + sum);
-    console.log("The Sum of Augend and addend = "+ (augend+addend));
-    console.log("Augend = " + augend);
-    console.log("Addend = " +addend);
+    console.re.log("The Sum of Augend and addend = "+ (augend+addend));
+    console.re.log("Augend = " + augend);
+    console.re.log("Addend = " +addend);
     
     // ASSIGNMENT
     // 1. Add a debug message which ouputs the sum of the simple equation above. Values are available in the augend, addend 
